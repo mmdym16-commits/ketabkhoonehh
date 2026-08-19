@@ -134,7 +134,7 @@ def get_file_id(message):
     )
 
 # ========== اجرا ==========
-if name == "__main__":
+if __name__ == "__main__":
     print("🤖 ربات روشن شد!")
     bot.infinity_polling()
     # ========== دستور start ==========
